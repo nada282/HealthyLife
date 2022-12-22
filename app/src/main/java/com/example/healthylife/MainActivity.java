@@ -41,6 +41,7 @@ private RecyclerView recyclerView;
        recyclerView.setLayoutManager(new LinearLayoutManager(this));
         MainAdapter mainAdapter=new MainAdapter(dataList);
         recyclerView.setAdapter(mainAdapter);
+
          btn_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
